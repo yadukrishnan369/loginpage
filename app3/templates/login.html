@@ -1,0 +1,106 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <style>
+        .style1 {
+            margin: 0px;
+            padding: 0px;
+            background: url("../static/images/loginimg.jpg");
+            background-size: cover;
+            font-family: sans-serif;
+        }
+        
+        .box {
+            position: absolute;
+            top: 55px;
+            left: 500px;
+            width: 350px;
+            height: 420px;
+            padding: 80px 40px;
+            box-sizing: border-box;
+            color: black;
+            background: rgba(0, 0, 0, 0, 5);
+            transform: translate( %);
+        }
+        
+        .email {
+            width: 200px;
+            height: 20px;
+            color: black;
+            text-align: center;
+            border-color: black;
+            font-weight: bold;
+        }
+        
+        .email:hover {
+            color: black;
+            background-color: #9344dd;
+        }
+        
+        .password {
+            width: 200px;
+            height: 20px;
+            color: black;
+            text-align: center;
+            border-color: black;
+            font-weight: bold;
+        }
+        
+        .password:hover {
+            color: black;
+            background-color: #9344dd;
+        }
+        
+        .submit {
+            width: 80px;
+            height: 30px;
+            text-align: center;
+            border-color: black;
+            font-weight: bold;
+            border-radius: 7px;
+            background-color: #16eb16;
+        }
+        
+        .submit:hover {
+            background-color: rgb(32, 216, 32);
+            color: black
+        }
+        
+        .forgot {
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .forgot:hover {
+            color: rgb(29, 2, 49);
+        }
+    </style>
+</head>
+
+<body class="style1">
+    <div class="box">
+        <h2>
+            login here
+        </h2>
+        <form action="get">
+
+            <p>email</p>
+            <input type="text" class="email" cname="" id="" placeholder="enter email">
+            <p>password</p>
+            <input type="password" class="password" name="" id="" placeholder=" enter password"><br><br>
+            <input type="submit" class="submit" name="" id="" value="sign in" placeholder="sign in"><br><br>
+            <a href="" class="forgot"> forgot password ?</a>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
